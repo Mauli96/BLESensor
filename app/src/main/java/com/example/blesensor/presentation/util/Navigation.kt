@@ -1,4 +1,4 @@
-package com.example.blesensor.presentation.component
+package com.example.blesensor.presentation.util
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
@@ -23,7 +23,9 @@ fun Navigation(
         }
 
         composable(Screen.TemperatureHumidityScreen.route) {
-            TemperatureHumidityScreen()
+            TemperatureHumidityScreen(
+                onBluetoothStateChanged = onBluetoothStateChanged
+            )
         }
     }
 }
