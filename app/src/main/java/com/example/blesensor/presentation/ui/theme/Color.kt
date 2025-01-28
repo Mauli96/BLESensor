@@ -1,4 +1,4 @@
-package com.example.blesensor.ui.theme
+package com.example.blesensor.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

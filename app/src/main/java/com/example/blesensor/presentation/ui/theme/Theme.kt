@@ -1,4 +1,4 @@
-package com.example.blesensor.ui.theme
+package com.example.blesensor.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build
